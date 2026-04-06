@@ -82,7 +82,13 @@ yesBtn.onclick = () => {
 
   if (step === 1) {
     cat.src = "happy.png";
-    text.innerHTML = "Okay… thank you ❤️<br><br>Will you come with me?";
+    text.innerHTML = "Thank you....";
+    
+ setTimeout(() => {
+      text.innerHTML += "<br><br>Will you come with me?";
+    }, 1000);
+
+    
   } 
   else if (step === 2) {
     cat.src = "excited.png";
