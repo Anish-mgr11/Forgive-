@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Request from Anish🥺</title>
+  <title>Forgive Me 🥺</title>
+
+ <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -11,7 +13,7 @@
       justify-content: center;
       align-items: center;
       background: linear-gradient(135deg, #ffe6e6, #ffccd5);
-      font-family: Arial;
+      font-family: 'Pacifico', cursive;
       text-align: center;
     }
 
@@ -22,6 +24,7 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.1);
       position: relative;
       width: 320px;
+      font-family: 'Pacifico', cursive;
     }
 
     img {
@@ -32,6 +35,8 @@
     h1 {
       font-size: 22px;
       margin-bottom: 20px;
+      font-family: 'Pacifico', cursive;
+      color: #ff4d6d;
     }
 
     button {
@@ -42,6 +47,7 @@
       border-radius: 10px;
       cursor: pointer;
       transition: 0.3s;
+      font-family: 'Pacifico', cursive;
     }
 
     #yes {
@@ -82,13 +88,12 @@ yesBtn.onclick = () => {
 
   if (step === 1) {
     cat.src = "happy.png";
-    text.innerHTML = "Thank you....";
-    
- setTimeout(() => {
+    text.innerHTML = "Thank you.....";
+
+    setTimeout(() => {
       text.innerHTML += "<br><br>Will you come with me?";
     }, 1000);
 
-    
   } 
   else if (step === 2) {
     cat.src = "excited.png";
