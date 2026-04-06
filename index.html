@@ -2,7 +2,7 @@
 <html>
 <head>
    <title>Swostikaaa</title>
- <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   
   <style>
     body {
@@ -89,8 +89,11 @@ yesBtn.onclick = () => {
     cat.src = "happy.png";
     text.innerHTML = "Thank you.....";
 
+    // Change button text to Yup/Nope for next step
     setTimeout(() => {
       text.innerHTML += "<br><br>Will you come with me?";
+      yesBtn.innerText = "Yup ❤️";
+      noBtn.innerText = "Nope 😡";
     }, 1000);
 
   } 
@@ -102,7 +105,7 @@ yesBtn.onclick = () => {
     noBtn.style.display = "none";
 
     setTimeout(() => {
-      text.innerHTML += "<br><br>My treat😁";
+      text.innerHTML += "<br><br>My treat 😁";
     }, 1500);
   }
 };
